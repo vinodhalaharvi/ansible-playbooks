@@ -1,10 +1,10 @@
-node2.localdomain ansible_connection=ssh ansible_ssh_user=node
+localhost ansible_connection=ssh ansible_ssh_user=ubuntu
 
 [webservers]
-node2.localdomain ansible_connection=ssh ansible_ssh_user=node
+localhost ansible_connection=ssh ansible_ssh_user=ubuntu
 
 [dbservers]
-node2.localdomain ansible_connection=ssh ansible_ssh_user=node
+localhost ansible_connection=ssh ansible_ssh_user=ubuntu
 
 [wordpress]
-node2.localdomain ansible_connection=ssh ansible_ssh_user=node
+localhost ansible_connection=ssh ansible_ssh_user=ubuntu
